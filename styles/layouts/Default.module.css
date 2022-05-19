@@ -1,0 +1,10 @@
+.app {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 50rem;
+    max-width: 100%;
+}
