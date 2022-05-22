@@ -15,9 +15,6 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", sans-serif;
 }
- body {
-   padding-bottom: 4rem;
- }
 
 a {
   color: inherit;
@@ -63,4 +60,9 @@ button.big {
   display: flex;
   justify-content: center;
   margin-top: 4rem;
+}
+
+.footer {
+  color: var(--grey);
+  font-size: 0.8rem;
 }
