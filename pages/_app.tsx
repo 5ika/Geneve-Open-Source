@@ -12,6 +12,12 @@ function MyApp({ Component, pageProps }) {
           name="description"
           content="Site référençant les applications Open Source qui concernent Genève et sa région."
         />
+        <script
+          async
+          defer
+          data-website-id="f31f8a0d-af9c-484e-adb9-2c454b00d5f9"
+          src="https://umami.hidora.com/umami.js"
+        ></script>
       </Head>
       <Component {...pageProps} />
     </>
