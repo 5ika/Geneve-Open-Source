@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -12,12 +13,12 @@ function MyApp({ Component, pageProps }) {
           name="description"
           content="Site référençant les applications Open Source qui concernent Genève et sa région."
         />
-        <script
+        <Script
           async
           defer
           data-website-id="f31f8a0d-af9c-484e-adb9-2c454b00d5f9"
           src="https://umami.hidora.com/umami.js"
-        ></script>
+        ></Script>
       </Head>
       <Component {...pageProps} />
     </>
